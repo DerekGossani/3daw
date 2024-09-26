@@ -1,0 +1,5 @@
+nome;email;senha
+jose da silva; ze@gmail.com; 1234
+antonio; tonho@gmail.com; 5432
+neusa; neusa@gmail.com; 9876
+Kaká Oliveira; kaka@gmail.com; 3456
