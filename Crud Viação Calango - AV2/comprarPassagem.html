@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viação Calango</title>
+    <link rel="stylesheet" href="comprarPassagem.css">
+</head>
+<body>
+    <header>
+        <div  class="logo">
+            <img  src="imagens.png/calango.png" alt="Logo da Viação Calango">
+        </div>
+        <nav>
+            <a oncliclick="window.location.href='clienteHome.html'" class="nav-link">Voltar ao Início</a>
+            <button>≡</button>
+        </nav>
+    </header>
+    <main>
+        <h2>Rotas Disponíveis</h2>
+        <div class="routes">
+            <div class="route">
+                <div class="route-info">
+                    <p><strong>Data de partida:</strong> 05/06/23 | <strong>Horário:</strong> 00:50h</p>
+                    <p><strong>Saída:</strong> São Paulo (Campinas) | <strong>Destino:</strong> Salvador (Barra)</p>
+                    <p><strong>Previsão de chegada:</strong> 13:00h</p>
+                    <span class="tipo Leito">Leito</span>
+                </div>
+                <div class="route-price">
+                    <p>R$ 89,90</p>
+                    <button onclick="window.location.href='pagamento.html'">Comprar</button>
+                </div>
+            </div>
+            <div class="route">
+                <div class="route-info">
+                    <p><strong>Data de partida:</strong> 05/06/23 | <strong>Horário:</strong> 00:50h</p>
+                    <p><strong>Saída:</strong> São Paulo (Campinas) | <strong>Destino:</strong> Salvador (Barra)</p>
+                    <p><strong>Previsão de chegada:</strong> 13:00h</p>
+                    <span class="tipo Semi-Leito">Semi-Leito</span>
+                </div>
+                <div class="route-price">
+                    <p>R$ 84,90</p>
+                     <button onclick="window.location.href='pagamento.html'">Comprar</button>
+                </div>
+            </div>
+            <div class="route">
+                <div class="route-info">
+                    <p><strong>Data de partida:</strong> 05/06/23 | <strong>Horário:</strong> 02:00h</p>
+                    <p><strong>Saída:</strong> São Paulo (Campinas) | <strong>Destino:</strong> Florianópolis</p>
+                    <p><strong>Previsão de chegada:</strong> 14:00h</p>
+                    <span class="tipo Premium">Premium</span>
+                </div>
+                <div class="route-price">
+                    <p>R$ 114,90</p>
+                    <button onclick="window.location.href='pagamento.html'">Comprar</button>
+                </div>
+            </div>
+        </div>
+        <button onclick="window.location.href='clienteHome.html'" class="change-route">Mudar Rota</button>
+    </main>
+</body>
+</html>

@@ -1,0 +1,86 @@
+/* Index.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #cc9966; /* Fundo da página */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.header {
+    background-color: #5c3728; /* Cor do cabeçalho */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.logo img {
+    width: 70%; /* Ajuste proporcional ao tamanho da página */
+    max-width: 500px;
+    height: auto;
+    margin-top: -20px; /* Move o logo mais para cima */
+}
+
+.box {
+    margin: 20px 0;
+    background-color: #f4e4d4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box h2 {
+    font-size: 2rem;
+    color: #5c3728;
+}
+
+.box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.box li {
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 300px;
+}
+
+.btn {
+    background-color: #5c3728;
+    color: #fff;
+    border: none;
+    padding: 20px 40px; /* Tamanho proporcional ao botão */
+    border-radius: 8px;
+    font-size: 1.5rem; /* Texto do botão maior */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #703f30;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
