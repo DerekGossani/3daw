@@ -1,0 +1,139 @@
+ /* Estilizando */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8e9e3;
+}
+header {
+    background-color: #9b5638; 
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+    height: 40px; 
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+header .nav-link {
+    color: #f5e3d9;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+header .nav-link:hover {
+    color: #fff;
+}
+
+header button {
+    background-color: #7a4c35; 
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+header button:hover {
+    background-color: #5c3728; 
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #9b5638;
+    margin-bottom: 20px;
+}
+
+.routes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.route {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffe6d4;
+    padding: 15px;
+    border: 2px solid #9b5638;
+    border-radius: 10px;
+}
+
+.route-info {
+    flex: 1;
+}
+
+.route-info p {
+    margin: 5px 0;
+}
+
+.tipo {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: white;
+}
+
+.tipo.Leito {
+    background-color: #4caf50;
+}
+
+.tipo.Semi-Leito {
+    background-color: #ff9800;
+}
+
+.tipo.Premium {
+    background-color: #673ab7;
+}
+
+.route-price {
+    text-align: center;
+    min-width: 100px;
+}
+
+.route-price p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #9b5638;
+    margin: 10px 0;
+}
+
+.route-price button {
+    background-color: #9b5638;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.change-route {
+    display: block;
+    margin: 20px auto;
+    background-color: #b33e3e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
